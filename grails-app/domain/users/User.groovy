@@ -6,12 +6,9 @@ package users
 class User implements Serializable {
 
     Long id
-    String nickname
-    String firstName
+    String name
     String lastName
     Integer age
     String email
     Date registrationDate
-
-
 }
